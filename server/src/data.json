@@ -1,0 +1,15 @@
+{
+  "kpis": [
+    {"id": "rev", "name": "Revenue", "values": [12000,14000,13500,15000,17000,16000,18000,19000,21000,20000,22000,23000]},
+    {"id": "tx", "name": "Transactions", "values": [400,420,415,430,460,450,470,480,500,495,510,520]},
+    {"id": "avgTicket", "name": "Avg Ticket", "values": [30,33,32,35,37,36,38,39,42,40,43,44]},
+    {"id": "driveThru", "name": "Drive Thru %", "values": [55,56,54,57,58,59,60,61,62,61,63,64]},
+    {"id": "delivery", "name": "Delivery %", "values": [10,11,10,12,13,12,14,15,16,15,17,18]},
+    {"id": "csat", "name": "Customer Sat", "values": [78,79,80,81,80,82,83,84,85,86,87,88]}
+  ],
+  "categories": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+  "stores": [
+    {"id": "store1", "name": "Downtown"},
+    {"id": "store2", "name": "Uptown"}
+  ]
+}
