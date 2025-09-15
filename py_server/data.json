@@ -1,0 +1,13 @@
+{
+  "kpis": [
+    {"id": "laborCost", "name": "Labor Cost %", "values": [24,23,25,26,24,23,22,21,22,23,24,25]},
+    {"id": "foodCost", "name": "Food Cost %", "values": [32,31,33,32,34,33,32,31,30,31,32,33]},
+    {"id": "waste", "name": "Waste $", "values": [400,380,395,390,410,420,415,405,400,390,385,380]},
+    {"id": "energy", "name": "Energy Usage kWh", "values": [1200,1180,1195,1210,1225,1230,1240,1250,1245,1235,1220,1215]}
+  ],
+  "categories": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+  "stores": [
+    {"id": "store1", "name": "Downtown"},
+    {"id": "store2", "name": "Uptown"}
+  ]
+}
