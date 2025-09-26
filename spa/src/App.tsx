@@ -2,6 +2,7 @@ import React from 'react';
 import { gql, useQuery, ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
+import RemoteDemo from './RemoteDemo';
 
 const DASHBOARD_QUERY = gql`
   query Dashboard {
@@ -102,6 +103,7 @@ const App: React.FC = () => {
   return (
     <div style={{padding:'18px 22px 60px'}}>
       <h1 style={{margin:'4px 0 12px',fontSize:22,letterSpacing:.5}}>McDonalds KPI Dashboard</h1>
+      {/* <RemoteDemo /> */}
       <div style={{fontSize:12,opacity:.75,marginBottom:18}}>Yellow labels indicate data source (Apollo Node vs Strawberry Python)</div>
       <div style={{display:'grid',gap:18,gridTemplateColumns:'repeat(auto-fill,minmax(320px,1fr))'}}>
         {cards.map(c => (
